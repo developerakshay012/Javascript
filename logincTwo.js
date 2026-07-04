@@ -165,3 +165,96 @@
 // console.log(calculateBill(250));   // 1700
 // console.log(calculateBill(350));   // 2560
 // console.log(calculateBill(2000));  // 22460
+
+
+//check the given consonent or vowel
+
+// let names = "akshayKumar"
+
+// if(names.includes('a' || 'e' || 'i' || 'o' || 'u')){
+//     console.log("this is vowewl names");
+// }
+
+
+// function checkVowels(char){
+
+//     if(
+//         char === 'a' ||
+//         char === 'e' ||
+//         char === 'i' ||
+//         char === 'o' ||
+//         char === 'u' 
+//     ){
+//         return 'Voewels'
+//     }else{
+//         return 'Consonents'
+//     }
+
+// }
+
+// let results = checkVowels('a')
+// console.log(results);
+
+
+// function checkVowels(word) {
+//     let vowels = [];
+//     let consonants = [];
+
+//     for (let char of word.toLowerCase()) {
+//         if ("aeiou".includes(char)) {
+//             vowels.push(char);
+//         } else if (char >= 'a' && char <= 'z') {
+//             consonants.push(char);
+//         }
+//     }
+
+//     console.log("Vowels:", vowels);
+//     console.log("Total Vowels:", vowels.length);
+
+//     console.log("Consonants:", consonants);
+//     console.log("Total Consonants:", consonants.length);
+// }
+
+// checkVowels("Akshay");
+
+// function vowelsFind(word){
+
+//     const vowel = [];
+//     const consonent = [];
+
+//     for(let char of word.toLowerCase()){
+//         if('aeiou'.includes(char)){
+//             vowel.push(char)
+//         }else if(char >= 'a' && char<= 'z'){
+//             consonent.push(char)
+//         }
+        
+//     }
+
+//     console.log("Vowels" , vowel);
+//     console.log("Total Vowels" , vowel.length);
+
+//     console.log("Consonents" , consonent);
+//     console.log("Total onsonents" , consonent.length);
+
+// }
+
+// vowelsFind('akshaya')
+
+
+//check the leap if year 
+
+// function findLeapYear(year){
+//     if(year % 400 === 0){
+//             return true
+//     }else if(year % 4 === 0){
+//         return false 
+//     }else if(year % 100 !== 0){
+//         return false
+//     }
+
+//     return false
+// }
+
+// const result = findLeapYear(1997);
+// console.log(result);
