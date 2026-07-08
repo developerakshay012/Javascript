@@ -66,3 +66,9 @@
 
 //         console.log(row);
 // }
+
+// 5. Print Hollow Square Pattern
+
+let num = 10;
+
+for(let i )
